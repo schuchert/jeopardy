@@ -1,0 +1,52 @@
+8
+
+dir
+383
+svn://localhost/Jeopardy/trunk/test/jeopardy/clientserver
+svn://localhost
+
+
+
+2007-04-08T18:30:32.250000Z
+358
+brett.schuchert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da0c47c6-5be9-7c4a-aa30-81970e613a8c
+
+JeopardyServerTest.java
+file
+
+
+
+
+2007-05-22T01:53:39.937500Z
+346010a6d3e610fe86356cf2b57c5270
+2007-04-08T18:30:32.250000Z
+358
+brett.schuchert
+
+JeopardyServiceTest.java
+file
+
+
+
+
+2007-11-08T17:59:54.000000Z
+f241280cf16d292fbee94cb0071a4646
+2007-04-08T18:30:32.250000Z
+358
+brett.schuchert
+

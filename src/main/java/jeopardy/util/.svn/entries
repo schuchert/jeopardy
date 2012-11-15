@@ -1,0 +1,40 @@
+8
+
+dir
+383
+svn://localhost/Jeopardy/trunk/src/jeopardy/util
+svn://localhost
+
+
+
+2007-04-06T04:58:41.906250Z
+343
+brett.schuchert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da0c47c6-5be9-7c4a-aa30-81970e613a8c
+
+CloseUtil.java
+file
+
+
+
+
+2007-05-22T01:53:41.296875Z
+a9144f8068b8d08ee64473a7eafc7dc9
+2007-04-06T04:58:41.906250Z
+343
+brett.schuchert
+

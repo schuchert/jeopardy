@@ -1,0 +1,49 @@
+8
+
+dir
+383
+svn://localhost/Jeopardy/trunk/src/jeopardy
+svn://localhost
+
+
+
+2007-04-09T01:29:03.156250Z
+366
+brett.schuchert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+da0c47c6-5be9-7c4a-aa30-81970e613a8c
+
+commands
+dir
+
+clientserver
+dir
+
+domain
+dir
+
+io
+dir
+
+ui
+dir
+
+util
+dir
+
+exception
+dir
+

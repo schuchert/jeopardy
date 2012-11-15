@@ -1,0 +1,62 @@
+package jeopardy.domain;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
+import java.io.FileReader;
+import java.io.Reader;
+import java.io.StringReader;
+
+import jeopardy.domain.AnswerQuestion;
+import jeopardy.domain.Board;
+import jeopardy.io.BoardReader;
+
+import org.junit.Test;
+
+public class BoardReaderTest {
+    private Board processString(String string) throws Exception {
+        Reader reader = new StringReader(string);
+        try {
+            return BoardReader.createBoard(reader);
+        } finally {
+            reader.close();
+        }
+    }
+
+    @Test
+    public void parseSingleLineFile() throws Exception {
+        Board b = processString("Cat1\t~~~ 200 ~~~Answer~~~ Question ");
+        assertEquals(1, b.getCategories().size());
+        AnswerQuestion aq = b.retrieve("Cat1", 200);
+        assertNotNull(aq);
+        assertEquals("Answer", aq.getAnswer());
+        assertEquals("Question", aq.getQuestion());
+    }
+
+    @Test
+    public void parseCommentLine() throws Exception {
+        Board b = processString("   # comment line ");
+        assertEquals(0, b.getCategories().size());
+    }
+
+    @Test
+    public void parseBlankLine() throws Exception {
+        Board b = processString("   \t     ");
+        assertEquals(0, b.getCategories().size());
+    }
+
+    @Test
+    public void parseExampleBoardFile() throws Exception {
+        FileReader reader = new FileReader("test/jeopardy/domain/testboard.txt");
+
+        try {
+            Board b = BoardReader.createBoard(reader);
+            assertEquals(6, b.getCategories().size());
+            for (int i = 1; i <= 6; ++i) {
+                assertEquals(i, b.retrieve("cat" + i).size());
+            }
+        } finally {
+            reader.close();
+        }
+    }
+}
