@@ -1,0 +1,43 @@
+#---------------------
+#Category~~~Points~~~Answer~~~Questions
+Patterns~~~ 100~~~I'm thread safe no matter what.~~~What is an immutable object?
+Patterns~~~ 110~~~I fill in for the real thing. You probably inject me.~~~What is a test double?
+Patterns~~~ 200~~~Running the tests to make sure they pass.~~~What is the first step in refactoring
+Patterns~~~ 600~~~I run on a plane~~~What is a unit?
+Patterns~~~ 800~~~I'm just like that, only I'm a constant failure. Some say I violate the LSP.~~~What is a saboteur?
+
+Design Patterns~~~ 100~~~I am the Highlander of design patterns...There can be only one.~~~What is Singleton?
+Design Patterns~~~ 200~~~I make chaining constructors a thing of the past.~~~What is a Builder?
+Design Patterns~~~ 210~~~OCP+DRY+new.~~~What is a factory?
+Design Patterns~~~ 220~~~I facilitate the reuse of objects that occur in large numbers; I save memory.~~~What is fly-weight?
+Design Patterns~~~ 230~~~I put the mess of creating & configuring an object in a separate class.~~~What is a Builder?
+Design Patterns~~~ 240~~~Rather than putting "new" all over the place, I existing to manage the second highest form of coupling in Java.~~~What is an abstract factory?
+Design Patterns~~~ 250~~~You see that new requirement? It has nothing to do we me at all.~~~What would code that follows the SRP say about changing requirements?
+Design Patterns~~~300~~~I don't create something new, I copy one that already exists. Human cloning is next.~~~What is a prototype?
+Design Patterns~~~400~~~You use me to handle polymorphic collections.~~~What is a visitor?
+Design Patterns~~~410~~~I'm the only one; some say I smell.~~~What is a singleton?
+Design Patterns~~~420~~~I'm the parent puppet master. I choose the order but I do let my children provide some details.~~~What is the Template Method pattern?
+Design Patterns~~~500~~~I keep what you see, what you have and how those things relate separated.~~~What is MVC/MVP/MVVM/MVM?
+Design Patterns~~~610~~~I look like that, I behave like that, and I delegate to that.~~~What is a composite?
+Design Patterns~~~620~~~I'm somewhat less evil that my fixed alternative and a "necessary evil" in legacy refactorings.~~~What is a reset-able singleton?
+
+Principles~~~200~~~I keep time from being wasted & code from growing unnecessarily.~~~What is YAGNI?
+Principles~~~210~~~I help classes not to depend on potentially hostile APIs.~~~What is the DIP?
+Principles~~~220~~~The future is unknown, better to be light-weight and responsive.~~~What is YAGNI?
+Principles~~~230~~~As a client, I see way too many methods.~~~What happens when you violate the ISP?
+Principles~~~240~~~I'm a child and I need to write a bunch of methods I do not care about.~~~What happens when code violates the LSP?
+Principles~~~300~~~My child is as me. You are not talking to me. You can't even tell.~~~What is the LSP?
+Principles~~~400~~~Speculation is costly.~~~What is YAGNI?
+Principles~~~410~~~Just because you're an interface doesn't mean I want to use you as is~~~How might your design take the DIP into consideration?
+Principles~~~400~~~Don't change me, add new stuff instead.~~~What is the OCP?
+Principles~~~410~~~You should not copy your code or concepts~~~What is DRY?
+Principles~~~420~~~I like to depend on things more concrete than myself.~~~What's one way to violate the DIP?
+Principles~~~430~~~Take me all the way to interfaces with only one method.~~~What is the ISP?
+Principles~~~440~~~Getting rid of the clipboard could help reduce violating me.~~~What is DRY
+Principles~~~500~~~Context matters. Who's looking determines what can be seen. Take your cue from the look of my view.~~~What is the ISP?
+Principles~~~600~~~I look to the outside and see what I want to see. I look through rose-colored glasses.~~~What is code that does not violate the DIP?
+
+Grab Bag~~~200~~~I don't know you; I'm not talking to you.~~~What is "Don't talk to strangers"
+Grab Bag~~~400~~~Coupling, I'm full of it. In fact, I'm the highest form in Java.~~~What is inheritance?
+Grab Bag~~~410~~~I am the base of everything.~~~What is nothing?
+
